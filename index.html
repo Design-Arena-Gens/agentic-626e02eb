@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hello World | Professional Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <nav class="top-nav">
+          <span class="brand">Agentic Studio</span>
+          <a class="cta" href="#contact">Contact</a>
+        </nav>
+        <div class="hero-content">
+          <div class="hero-text">
+            <span class="badge">Now Launching</span>
+            <h1>Hello, World.</h1>
+            <p>
+              A simple, professional landing experience crafted to validate your
+              deployment workflow. Built with clean design principles and ready
+              to shine on the web.
+            </p>
+            <div class="hero-actions">
+              <a class="btn primary" href="#learn-more">Learn More</a>
+              <a class="btn secondary" href="#contact">Get in Touch</a>
+            </div>
+          </div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="gradient-orb"></div>
+            <div class="card">
+              <span class="eyebrow">Test Message</span>
+              <p class="card-title">Hello World</p>
+              <p class="card-subtitle">Everything is wired up perfectly.</p>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section id="learn-more" class="feature-grid">
+          <article>
+            <h2>Polished Typography</h2>
+            <p>
+              Inter balances character and legibility, ensuring your message is
+              crisp on every device.
+            </p>
+          </article>
+          <article>
+            <h2>Responsive Layout</h2>
+            <p>
+              With flexible spacing and modern CSS, this layout adapts smoothly
+              from mobile to desktop.
+            </p>
+          </article>
+          <article>
+            <h2>Production Ready</h2>
+            <p>
+              Minimal dependencies make this site effortless to deploy and
+              maintain.
+            </p>
+          </article>
+        </section>
+      </main>
+      <footer id="contact" class="footer">
+        <p>
+          Need a professional touch? Reach out at
+          <a href="mailto:hello@example.com">hello@example.com</a>.
+        </p>
+        <p class="legal">© <span id="year"></span> Agentic Studio. All rights reserved.</p>
+      </footer>
+    </div>
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
